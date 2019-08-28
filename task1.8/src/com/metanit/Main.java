@@ -5,13 +5,15 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int summ=0;
         Scanner scan=new Scanner(System.in);
-        System.out.print("Введите любое целое положительно число: ");
-        int number=scan.nextInt();
-        for (int i=1;i<=number;i++){
-            summ+=i;
-        }
-        System.out.println("Сумма чисел от 1 до "+number+" = "+summ);
+        System.out.print("Введите значение переменной a: ");
+        double a=scan.nextDouble();
+        System.out.print("Введите значение переменной b: ");
+        double b=scan.nextDouble();
+        System.out.print("Введите значение переменной c: ");
+        double c=scan.nextDouble();
+        System.out.print("Введите значение переменной d: ");
+        double d=scan.nextDouble();
+        System.out.print("Ответ: "+Math.max(Math.min(a,b),Math.min(c,d)));
     }
 }
