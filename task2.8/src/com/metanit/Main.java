@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         int minNumber;
         int amountNumber=0;
-	Scanner scan=new Scanner(System.in);
+	    Scanner scan=new Scanner(System.in);
         System.out.print("Введите количество целых чисел: ");
         int n=scan.nextInt();
         int[] a=new int[n];
