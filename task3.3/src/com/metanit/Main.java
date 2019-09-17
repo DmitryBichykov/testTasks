@@ -16,6 +16,6 @@ public class Main {
                 number++;
             }
         }
-        System.out.println("В строке "+number+" числа(ел)!");
+        System.out.println("В строке "+number+" цифры(ер)!");
     }
 }
