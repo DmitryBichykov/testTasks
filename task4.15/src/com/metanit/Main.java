@@ -51,9 +51,9 @@ public class Main {
         travelPackages[9] = new TravelPackages(destination6, typeOfRest1, transport1, food2, travelTime5);
         Scanner scan = new Scanner(System.in);
         int operation = 0;
-        while (operation != 6) {
+        while (operation != 4) {
             System.out.println("Выберите операцию:");
-            System.out.println("1. Отобразить все предложения;\n2. Произвести подбор путевки;\n3. Отсортировать путевки по типу.");
+            System.out.println("1. Отобразить все предложения;\n2. Произвести подбор путевки;\n3. Отсортировать путевки по типу;\n4. Законсить работу с программой.");
             operation = scan.nextInt();
             if (operation == 1) {
                 for (TravelPackages i : travelPackages) {
