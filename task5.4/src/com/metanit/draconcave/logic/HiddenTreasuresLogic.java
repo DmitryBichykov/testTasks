@@ -4,7 +4,6 @@ import com.metanit.draconcave.DragonCave;
 import com.metanit.draconcave.HiddenTreasures;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
