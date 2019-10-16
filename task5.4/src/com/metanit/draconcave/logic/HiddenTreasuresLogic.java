@@ -44,29 +44,11 @@ public class HiddenTreasuresLogic {
 
     public DragonCave treasureSelectionInAmountOf(double sum,DragonCave dragonCave){
         double amountReceived=0;
-        int index=0;
         DragonCave dragonCave1=new DragonCave();
-        int[] array={0};
-        while (amountReceived+dragonCave.getHiddenTreasures()[index].getCost()<sum){
-            boolean bool=false;
-            int j=0;
-            while (!bool){
-                index = (int) (Math.random() * dragonCave.getHiddenTreasures().length);
-                for (int i:array){
-                    if (i==index) {
-                        bool=false;
-                        break;
-                    }else bool=true;
-                }
-                if (bool){
-                    array[j]=index;
-                    array= Arrays.copyOf(array,array.length+1);
-                    j++;
-                }
-            }
-            if (amountReceived+dragonCave.getHiddenTreasures()[index].getCost()<=sum){
-                amountReceived+=dragonCave.getHiddenTreasures()[index].getCost();
-            dragonCave1.setHiddenTreasures(new HiddenTreasures(dragonCave.getHiddenTreasures()[index].getName(),dragonCave.getHiddenTreasures()[index].getCost()));
+        for (HiddenTreasures i:dragonCave.getHiddenTreasures()){
+            if (amountReceived+i.getCost()<=sum){
+                amountReceived+=i.getCost();
+                dragonCave1.setHiddenTreasures(new HiddenTreasures(i.getName(),i.getCost()));
             }
         }
         return dragonCave1;
