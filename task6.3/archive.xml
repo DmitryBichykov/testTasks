@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<archive>
+        <Student>
+            <Name>Иванов Степан Викторович</Name>
+            <DateOfBirth>17.03.1997</DateOfBirth>
+            <Adres>Могилев, ул. Крупской 73-12</Adres>
+        </Student>
+        <Student>
+            <Name>Петров Петр Петрович</Name>
+            <DateOfBirth>28.06.2001</DateOfBirth>
+            <Adres>Могилев, ул. Первомайская 65-4</Adres>
+        </Student>
+        <Student>
+            <Name>Сидоров Сергей Иванович</Name>
+            <DateOfBirth>30.03.1998</DateOfBirth>
+            <Adres>Могилев, ул. Кутепова 24-12</Adres>
+        </Student>
+<Student>
+<Name>Петров Егор Емельянович</Name>
+<DateOfBirth>17.07.2001</DateOfBirth>
+<Adres>Могилев, ул. Первомайская 54-5</Adres>
+</Student>
+<Student>
+<Name>Савельев Павел Павлович</Name>
+<DateOfBirth>17.04.2001</DateOfBirth>
+<Adres>г. Могилев, ул. Машерова92-4</Adres>
+</Student>
+<Student>
+<Name>Прокофьев Семен Егорович</Name>
+<DateOfBirth>17.04.2000</DateOfBirth>
+<Adres>г. Могилев, ул. Молчанского 43-2</Adres>
+</Student>
+</archive>
